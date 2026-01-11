@@ -179,5 +179,5 @@ export {
     openingHours,
     storeInfo,
     socials,
-    sliderLists,
+    sliderLists as allCocktails,
 };
