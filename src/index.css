@@ -228,8 +228,19 @@ body {
             }
         }
 
-        .bottom-grid {
+        .middle-grid {
             @apply grid grid-cols-1 md:grid-cols-12 gap-5 md:px-0 px-5;
+
+            > div {
+                @apply rounded-3xl overflow-hidden h-72 relative;
+            }
+
+            img {
+                @apply object-cover w-full h-full;
+            }
+        }
+         .bottom-grid {
+            @apply grid grid-cols-1 xl:grid-cols-12 gap-5 mb-5 md:px-0 px-5;
 
             > div {
                 @apply rounded-3xl overflow-hidden h-72 relative;
@@ -257,6 +268,7 @@ body {
         }
 
         .masked-container {
+            
             h2 {
                 @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-32;
             }

@@ -58,11 +58,12 @@ const Art = () => {
                     </ul>
                 </div>
 
-                <div className="masked-container">
-                    <h2 className="will-fade">Sip-Worthy Perfection</h2>
+                <div className="masked-container mt-20">
+                    <h2 className="will-fade">Scoop-Worthy Perfection</h2>
                     <div id="masked-content">
-                        <h3>Made with Craft, Poured with Passion</h3>
-                        <p>This isn’t just a drink. It’s a carefully crafted moment made just for you.</p>
+                        <h3>Crafted Simply, Swirled With Soul</h3>
+                        <p>We don't just serve flavors; we curate cold experiences.
+                            Designed in New York for those who seek the extraordinary.</p>
                     </div>
                 </div>
             </div>

@@ -73,7 +73,7 @@ const Hero = () => {
     return (
         <>
             <section id="hero" className="noisy">
-                <h1 className="title">MOJITO</h1>
+                <h1 className="title">SWIRL</h1>
 
                 <img
                     src="/images/hero-left-leaf.png"
@@ -91,19 +91,17 @@ const Hero = () => {
 
                     <div className="content">
                         <div className="space-y-5 hidden md:block">
-                            <p>Cool. Crisp. Classic.</p>
+                            <p>Pure. Polar. Perfect.</p>
                             <p className="subtitle">
-                                Sip the Spirit <br /> of Summer
+                                Your Daily <br /> Dose of Chill
                             </p>
                         </div>
 
                         <div className="view-cocktails">
                             <p className="subtitle">
-                                Every cocktail on our menu is a blend of premium ingredients,
-                                creative flair, and timeless recipes — designed to delight your
-                                senses.
+                                Every scoop in our shop is a blend of farm-fresh dairy, playful toppings, and signature churns — designed to sweeten your day.
                             </p>
-                            <a href="#cocktails">View cocktails</a>
+                            <a href="#cocktails">View Flavors</a>
                         </div>
                     </div>
                 </div>
@@ -116,6 +114,7 @@ const Hero = () => {
                     playsInline
                     preload="auto"
                     src="/videos/output.mp4"
+                    className="mix-blend-screen"
                 />
             </div>
         </>

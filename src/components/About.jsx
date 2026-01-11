@@ -19,6 +19,13 @@ const About = () => {
             .from(titleSplit.words, {
                 opacity: 0, duration: 1, yPercent: 100, ease: 'expo.out', stagger: 0.02
             })
+            .from('.sub-content p, .sub-content div', {
+                opacity: 0,
+                y: 20,
+                duration: 1,
+                ease: 'power1.out',
+                stagger: 0.1
+            }, '-=0.7')
             .from('.top-grid div, .bottom-grid div', {
                 opacity: 0, duration: 1, ease: 'power1.inOut', stagger: 0.04,
             }, '-=0.5')
@@ -29,16 +36,16 @@ const About = () => {
             <div className="mb-16 md:px-0 px-5">
                 <div className="content">
                     <div className="md:col-span-8">
-                        <p className="badge">Best Cocktails</p>
+                        <p className="badge">Premium Frost</p>
                         <h2>
                             Where every detail matters <span className="text-white">-</span>
-                            from muddle to garnish
+                            from raw cream to the final swirl.
                         </h2>
                     </div>
 
                     <div className="sub-content">
                         <p>
-                            Every cocktail we serve is a reflection of our obsession with detail — from the first muddle to the final garnish. That care is what turns a simple drink into something truly memorable.
+                            Every batch is a study in flavor. We combine organic local dairy with experimental inclusions to create a scoop that’s fundamentally different. It’s not just ice cream; it’s a New York state of chill. Engineered for the city that never sleeps, but always knows how to cool down.
                         </p>
 
                         <div>
@@ -66,19 +73,35 @@ const About = () => {
 
                 <div className="md:col-span-3">
                     <div className="noisy" />
-                    <img src="/images/abt5.png" alt="grid-img-5" />
+                    <img src="/images/abt3.png" alt="grid-img-5" />
                 </div>
             </div>
 
-            <div className="bottom-grid">
+            <div className="middle-grid">
                 <div className="md:col-span-8">
                     <div className="noisy" />
-                    <img src="/images/abt3.png" alt="grid-img-3" />
+                    <img src="/images/abt4.png" alt="grid-img-3" />
                 </div>
 
                 <div className="md:col-span-4">
                     <div className="noisy" />
-                    <img src="/images/abt4.png" alt="grid-img-4" />
+                    <img src="/images/abt5.png" alt="grid-img-4" />
+                </div>
+            </div>
+            <div className="top-grid mt-4" >
+                <div className="md:col-span-3">
+                    <div className="noisy" />
+                    <img src="/images/abt6.png" alt="grid-img-1" />
+                </div>
+
+                <div className="md:col-span-6">
+                    <div className="noisy" />
+                    <img src="/images/abt7.png" alt="grid-img-2" />
+                </div>
+
+                <div className="md:col-span-3">
+                    <div className="noisy" />
+                    <img src="/images/abt8.png" alt="grid-img-5" />
                 </div>
             </div>
 
