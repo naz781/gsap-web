@@ -3,15 +3,15 @@
 @import "tailwindcss";
 
 @font-face {
-    font-family: "Modern Negra";
-    src: url("/fonts/Modern Negra Demo.ttf") format("truetype");
+    font-family: "Comfortaa";
+    src: url("/fonts/Comfortaa-VariableFont_wght.ttf") format("truetype");
 }
 
 @theme {
     --color-yellow: #e7d393;
     --color-white-100: #efefef;
-    --font-sans: "Mona Sans", sans-serif;
-    --font-modern-negra: "Modern Negra", sans-serif;
+    --font-sans: "Comfortaa", sans-serif;
+    --font-modern-negra: "Comfortaa", sans-serif;
     --font-serif: "DM Serif Text", serif;
 }
 
@@ -22,6 +22,7 @@ body {
     color: white;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    font-family: var(--font-sans);
 }
 
 @utility flex-center {

@@ -35,21 +35,21 @@ const Contact = () => {
             <img src="/images/footer-left-leaf.png" alt="leaf-left" id="f-left-leaf" />
 
             <div className="content">
-                <h2>Where to Find Us</h2>
+                <h2>Find the Sweet Spot</h2>
 
                 <div>
-                    <h3>Visit Our Bar</h3>
-                    <p>456, Raq Blvd. #404, Los Angeles, CA 90210</p>
+                    <h3>The Scoop Shop</h3>
+                    <p>123 Broadway, Suite 100, New York, NY 10012</p>
                 </div>
 
                 <div>
-                    <h3>Contact Us</h3>
-                    <p>(555) 987-6543</p>
-                    <p>hello@jsmcocktail.com</p>
+                    <h3>Chat With Us</h3>
+                    <p>(212) 555-0198</p>
+                    <p>hello@thescoopshop.com</p>
                 </div>
 
                 <div>
-                    <h3>Open Every Day</h3>
+                    <h3>Scooping Hours</h3>
                     {openingHours.map((time) => (
                         <p key={time.day}>
                             {time.day} : {time.time}

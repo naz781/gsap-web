@@ -1,11 +1,11 @@
 const navLinks = [
     {
-        id: "cocktails",
-        title: "Cocktails",
+        id: "menu",
+        title: "Menu",
     },
     {
         id: "about",
-        title: "About Us",
+        title: "Our Story",
     },
     {
         id: "work",
@@ -13,61 +13,61 @@ const navLinks = [
     },
     {
         id: "contact",
-        title: "Contact",
+        title: "Visit Us",
     },
 ];
 
 const cocktailLists = [
     {
-        name: "Chapel Hill Shiraz",
-        country: "AU",
-        detail: "Battle",
-        price: "$10",
+        name: "Madagascar Vanilla",
+        country: "Classic",
+        detail: "Double Scoop",
+        price: "$6",
     },
     {
-        name: "Caten Malbee",
-        country: "AU",
-        detail: "Battle",
-        price: "$49",
+        name: "Belgian Chocolate",
+        country: "Premium",
+        detail: "Waffle Cone",
+        price: "$8",
     },
     {
-        name: "Rhino Pale Ale",
-        country: "CA",
-        detail: "750 ml",
-        price: "$20",
+        name: "Salted Caramel",
+        country: "Signature",
+        detail: "Sea Salt",
+        price: "$7",
     },
     {
-        name: "Irish Guinness",
-        country: "IE",
-        detail: "600 ml",
-        price: "$29",
+        name: "Pistachio Dream",
+        country: "Organic",
+        detail: "Roasted Nut",
+        price: "$9",
     },
 ];
 
 const mockTailLists = [
     {
-        name: "Tropical Bloom",
-        country: "US",
-        detail: "Battle",
-        price: "$10",
+        name: "Wild Berry Sorbet",
+        country: "Vegan",
+        detail: "Fruit Mix",
+        price: "$6",
     },
     {
-        name: "Passionfruit Mint",
-        country: "US",
-        detail: "Battle",
-        price: "$49",
+        name: "Mango Gelato",
+        country: "Tropical",
+        detail: "Alphonso",
+        price: "$7",
     },
     {
-        name: "Citrus Glow",
-        country: "CA",
-        detail: "750 ml",
-        price: "$20",
+        name: "Lemon Zest",
+        country: "Fresh",
+        detail: "Palate Cleanser",
+        price: "$5",
     },
     {
-        name: "Lavender Fizz",
-        country: "IE",
-        detail: "600 ml",
-        price: "$29",
+        name: "Minty Lime Sorbet",
+        country: "Zesty",
+        detail: "Infused Mint",
+        price: "$6",
     },
 ];
 
@@ -87,25 +87,25 @@ const profileLists = [
 ];
 
 const featureLists = [
-    "Perfectly balanced blends",
-    "Garnished to perfection",
-    "Ice-cold every time",
-    "Expertly shaken & stirred",
+    "Hand-churned in small batches",
+    "Garnished with fresh toppings",
+    "Sub-zero served every time",
+    "Expertly swirled & scooped",
 ];
 
 const goodLists = [
-    "Handpicked ingredients",
-    "Signature techniques",
-    "Bartending artistry in action",
-    "Freshly muddled flavors",
+    "Farm-to-creamery dairy",
+    "Signature waffle cones",
+    "Artisanal dessert crafting",
+    "Freshly seasonal fruits",
 ];
 
 const storeInfo = {
-    heading: "Where to Find Us",
-    address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
+    heading: "Find the Sweet Spot",
+    address: "123 Broadway, Suite 100, New York, NY 10012",
     contact: {
-        phone: "(555) 987-6543",
-        email: "hello@jsmcocktail.com",
+        phone: "(212) 555-0198",
+        email: "hello@thescoopshop.com",
     },
 };
 
@@ -120,52 +120,52 @@ const socials = [
     {
         name: "Instagram",
         icon: "/images/insta.png",
-        url: "#",
+        url: "https://www.instagram.com",
     },
     {
         name: "X (Twitter)",
         icon: "/images/x.png",
-        url: "#",
+        url: "https://www.twitter.com",
     },
     {
         name: "Facebook",
         icon: "/images/fb.png",
-        url: "#",
+        url: "https://www.facebook.com",
     },
 ];
 
 const sliderLists = [
     {
         id: 1,
-        name: "Classic Mojito",
+        name: "Vanilla Bean Lush",
         image: "/images/drink1.png",
-        title: "Simple Ingredients, Bold Flavor",
+        title: "Pure Cream, Real Vanilla",
         description:
-            "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+            "Crafted with organic cream and hand-scraped Madagascar vanilla beans. A timeless classic that serves as the perfect base for your favorite toppings.",
     },
     {
         id: 2,
-        name: "Raspberry Mojito",
+        name: "Strawberry Swirl",
         image: "/images/drink2.png",
-        title: "A Zesty Classic That Never Fails",
+        title: "Summer in Every Scoop",
         description:
-            "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+            "A vibrant blend of fresh orchard strawberries and silky sweet cream. It’s light, refreshing, and perfectly balanced for a sunny afternoon treat.",
     },
     {
         id: 3,
-        name: "Violet Breeze",
+        name: "Chocolate Fudge",
         image: "/images/drink3.png",
-        title: "Simple Ingredients, Bold Flavor",
+        title: "Rich, Dark, and Decadent",
         description:
-            "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+            "Indulge in our deep cocoa blend folded with chunks of house-made dark chocolate fudge. A must-have for the serious chocolate lover.",
     },
     {
         id: 4,
-        name: "Curacao Mojito",
+        name: "Mint Choco Chip",
         image: "/images/drink4.png",
-        title: "Crafted With Care, Poured With Love",
+        title: "Crisp Coolness in a Cone",
         description:
-            "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+            "Each scoop is infused with garden-fresh mint and packed with bittersweet chocolate shavings, providing a satisfying crunch in every bite.",
     },
 ];
 
