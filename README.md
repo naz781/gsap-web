@@ -1,16 +1,72 @@
-# React + Vite
+# 🌀 Swirl 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A short description of what Swirl Murex is and why it exists.**  
+Live Demo: [https://swirl-murex.vercel.app/](https://swirl-murex.vercel.app/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Table of Contents
 
-## React Compiler
+- [About](#about)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+  - [Running the App](#running-the-app)  
+- [Usage](#usage)  
+- [Deployment](#deployment)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Contact](#contact)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🤔 About
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Swirl** is a modern web application for ice-cream shop.
+A responsive web app showcasing animations and interactive content.
+
+---
+
+## 🚀 Features
+
+- 🔹 Smooth animations with GSAP  
+- 🔹 Responsive design for all devices  
+- 🔹 Dynamic content rendering  
+- 🔹 Easy deployment on Vercel  
+
+
+
+---
+
+## 🛠 Tech Stack
+
+| Layer       | Technology               |
+|------------|-------------------------|
+| Frontend   | React / Next.js         |
+| Animations | GSAP                    |
+| Styling    | Tailwind CSS / CSS Modules |
+| Deployment | Vercel                  |
+| Version Control | Git + GitHub        |
+
+---
+
+## ⚙️ Getting Started
+
+Follow these steps to run the project locally.
+
+### 📋 Prerequisites
+
+- Node.js (v14 or higher)  
+- npm or Yarn  
+- Git  
+
+---
+
+### 📥 Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/<your-username>/swirl.git
